@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat" !important;
+}
+
+.modal-open {
+  overflow: hidden !important;
+}
+
+.font-ubuntu {
+  font-family: "Ubuntu" !important;
+}
+.tab-active {
+  border-bottom: 2px solid #a62036;
+  /* border-color: #a62036; */
+}
+
+.tab-inactive {
+  border-bottom: 2px solid transparent;
+}
+
+.confirm-bg {
+  /* backdrop-filter: blur(3px); */
+  z-index: 99;
+}
